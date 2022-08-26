@@ -7,6 +7,6 @@ $section = qs( 'section' ),
 $article = qs( 'article' );
 
 $h1.innerHTML = 'AGREGAR PELICULAS';
-$h1.className += 'titulo';
-$article.className += 'fondoTransparente';
-$section.className += 'fondoCRUD';
+$h1.classList.add += 'titulo';
+$article.classList.add += 'fondoTransparente';
+$section.classList.add += 'fondoCRUD';

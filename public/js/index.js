@@ -18,12 +18,12 @@ $a.style.color = '#E51B3E';
 
 let opt =  confirm('¿Desea colocar un fonde de pantalla?');
 
-opt && ( $body.className += 'fondo' );
+opt && ( $body.classList.add += 'fondo' );
 
 $p = document.querySelectorAll( 'p' );
 
 for (let i = 0; i < $p.length; i++) {
-    $p[i] % 2 === 0 ? $p.className = 'destacadoPar' : $p.className = 'descadoImpar';
+    $p[i] % 2 === 0 ? $p.classList.add = 'destacadoPar' : $p.classList.add = 'descadoImpar';
 };
 
 
