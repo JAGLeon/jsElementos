@@ -8,7 +8,7 @@ $h1 = qs('h1');
 let darkMode = confirm('¿Desea modo oscuro?');
 if(darkMode){
     $body.style.backgroundColor = '#7f7f7f';
-    $body.classList.add += 'fondoMoviesList';
+    $body.classList.add('fondoMoviesList');
 }
 
 $h1.innerHTML = 'LISTADO DE PELÍCULAS';
